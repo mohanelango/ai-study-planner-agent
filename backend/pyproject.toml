@@ -1,0 +1,9 @@
+[project]
+name = "ai-study-planner-backend"
+version = "0.2.0"
+description = "Weekend 2 database foundation for AI Study Planner Agent"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
